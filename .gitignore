@@ -1,0 +1,56 @@
+# ===================== #
+# Python
+# ===================== #
+
+# Compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+
+# Configs locais
+*.env
+*.ini
+*.log
+
+# Cache / build
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===================== #
+# Node / React
+# ===================== #
+
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+build/
+dist/
+.cache/
+.next/
+out/
+
+# Configs locais
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===================== #
+# Sistema operacional
+# ===================== #
+
+.DS_Store
+Thumbs.db
